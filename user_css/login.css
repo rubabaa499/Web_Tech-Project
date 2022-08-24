@@ -1,0 +1,251 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.star {
+  color: #2844b1;
+  background-color: #010618e2;
+  font-size: 12px;
+  padding: 2px;
+  align-content: center;
+  width: 100%;
+
+}
+
+.glow {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 0px;
+  font-family: 'Lobster', cursive;
+  animation: gtx 1s ease-in-out infinite alternate;
+}
+
+@keyframes gtx {
+  from {
+    text-shadow: 0 0 10px #fff,
+      0 0 20px rgb(217, 23, 23),
+      0 0 30px #e60073,
+      0 0 40px #e60073,
+      0 0 50px #e1398d,
+      0 0 60px #0d032b,
+      0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px rgb(248, 0, 227),
+      0 0 30px #e60073,
+      0 0 40px #e60073,
+      0 0 50px #e60073,
+      0 0 60px #2031e4,
+      0 0 70px #e60073;
+  }
+
+}
+
+
+.custlog {
+  width: 700px;
+  height: 550px;
+  background: white;
+  border-radius: 6px;
+  position: relative;
+  margin-top: 100px;
+  left: 30%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  transition: transform 0.25s;
+}
+
+.custlog:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(8, 117, 242, 0.828);
+}
+
+.custlog>input {
+  display: block;
+  margin: auto auto;
+  width: 50%;
+  margin-bottom: 2em;
+  padding: .5em 0;
+  border: none;
+  border-bottom: 1px solid #b69c9c;
+  padding-bottom: 1.25em;
+  color: #8f8d8d;
+  outline: none;
+  font-size: 1.2em;
+}
+.custlog>label
+{
+  color: #8f8d8d;
+  outline: none;
+  font-size: 1.2em;
+}
+.userPanel
+{
+  color: #2844b1;
+  background-color: #010618e2;
+  font-size: 22px;
+  padding: 20px;
+  align-content: center;
+  margin-top: 0px;
+  width: 94%;
+  color: white;
+}
+.butt
+{
+  width: 100px;
+  height: 40px;
+  margin-left: 248px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid blue;
+  background: blue;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  transition: 0.25s;
+  font-size: 17px;
+  
+}
+.butt:hover
+{
+  background: rgba(63, 85, 234, 0.992);
+  transform: scale(1.1);
+}
+
+.butt2
+{
+  width: 200px;
+  height: 50px;
+  margin-left: 200px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid rgb(26, 188, 51);
+  background: rgba(44, 167, 37, 0.822);
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  transition: 0.25s;
+  font-size: 17px;
+}
+.butt2:hover
+{
+  background: rgba(26, 188, 51, 0.822);
+  transform: scale(1.1);
+}
+.butt2>a{
+  text-decoration: none;
+  color: white;
+}
+
+.butt3
+{
+  width: 170px;
+  height: 40px;
+  margin-left: 175px;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid rgb(26, 188, 51);
+  background: rgba(221, 12, 12, 0.822);
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  transition: 0.25s;
+  font-size: 17px;
+}
+.butt3:hover
+{
+  background: rgba(26, 188, 51, 0.822);
+  transform: scale(1.1);
+}
+.butt3>a{
+  text-decoration: none;
+  color: white;
+}
+
+.vote2 {
+  width: 700px;
+  height: 450px;
+  border: 1px solid black;
+  background-color: #0d132b;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 0px;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  left: 30%;
+  transition: 0.25s;
+}
+
+.vote2:hover
+{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(209, 223, 239, 0.828);
+}
+
+.vote2>h2 {
+  background-color: rgba(13, 13, 158, 0.775);
+  padding: 25px;
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+  border-radius: 10px;
+}
+.vote2>* {
+  color: white;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.vote2>p>a {
+  color: white;
+  text-decoration: none;
+}
+.butt4
+{
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 65px;
+  border: 1.6px solid rgb(192, 197, 222);
+  border-radius: 10px;
+  transition: 0.25s;
+  margin-left: 180px;
+  cursor: pointer;
+  color:blue;
+}
+.butt4:hover
+{
+  transform: scale(1.01);
+  background-color: #e1398d;
+
+}
+
+.butt4:hover>a
+{
+  color: white;
+}
+
+.butt4>a{
+  text-decoration: none;
+  color: rgb(119, 91, 91);
+  font-size: 1.5em;
+}

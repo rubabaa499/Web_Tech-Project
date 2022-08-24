@@ -1,0 +1,132 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    overflow-x: hidden;
+    color: white;
+}
+
+body>p{
+    text-align: left;
+    font-size: larger;
+    font-family: "Times New Roman";
+}
+
+
+.star {
+    color: #2844b1;
+    background-color: #010618e2;
+    font-size: 12px;
+    padding: 2px;
+    align-content: center;
+    width: 100%;
+}
+
+.glow {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    font-family: 'Lobster', cursive;
+    animation: gtx 1s ease-in-out infinite alternate;
+}
+
+@keyframes gtx {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px rgb(217, 23, 23),
+            0 0 30px #e60073,
+            0 0 40px #e60073,
+            0 0 50px #e1398d,
+            0 0 60px #0d032b,
+            0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px rgb(248, 0, 227),
+            0 0 30px #e60073,
+            0 0 40px #e60073,
+            0 0 50px #e60073,
+            0 0 60px #2031e4,
+            0 0 70px #e60073;
+    }
+}
+
+.panel
+{
+    width: 100%;
+    height: 1500px;
+    cursor: pointer;
+    background-color: #101b458b;
+    backdrop-filter: blur(5px);
+}
+.panel>legend
+{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+.panel>label
+{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+.panel>*
+{
+    margin-left: 30px;
+    color: white;
+}
+
+.panel>input
+{
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.panel>label{
+    color: #fffbfb;
+    outline: none;
+    font-size: 1.2em;
+}
+.butt1
+{
+    width: 200px;
+    height: 50px;
+    margin-left: 46%;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid rgb(26, 188, 51);
+    background: rgba(44, 167, 37, 0.822);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    transition: 0.25s;
+    font-size: 17px;
+}
+.butt1:hover
+{
+    background: rgba(49, 198, 71, 0.832);
+    transform: scale(1.1);
+}
+.butt1>a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(197, 169, 7);
+  
+
+}
+
+h3.sname{
+    background-color: black;
+    color: red;
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    margin: auto;
+    
+}
+h1.head1{
+
+    color: #ebcbcbf5;
+    border: 3px solid rgb(3, 7, 78);
+    background-color: rgb(3, 7, 78);;
+    width: auto;
+     
+     text-align: center;
+     justify-content: center;
+     margin: auto;
+     
+}
+
+input[type=text] {
+    width: 400px;
+    padding: 4px 4px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 2px solid rgb(240, 206, 206);
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: medium;
+    text-align: center;
+  }
+  input[type=submit] {
+    width: 200px;
+    background-color: #102010;
+    color: white;
+    padding: 12px 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .orange{
+    width: 650px;
+    box-shadow: 10px 10px 6px -2px;
+    border: 3px solid black;
+    padding: 15px 10px 5px 20px;
+    background-color: orangered;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+  }
+  h2.Show1{
+    width: 650px;
+    box-shadow: 10px 10px 6px -2px;
+    border: 3px solid black;
+    padding: 1px 1px 5px 2px;
+    background-color: orangered;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    margin-top: 0px;
+  }
+  div.parent{
+
+    display: flex;
+}
+
+  
+  div.form1{
+    background-color: rgb(142 180 233 / 23%);
+    position: relative;
+    width: 450px;
+    height:600px;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 15px 10px 5px 20px;
+    /* text-align: center; */
+    justify-content: center;
+    margin:120px;
+    box-shadow: 10px 10px 6px -2px;
+    margin-top:7px ;
+
+}
+div.show{
+
+    display: inline-block;
+
+    background-color: rgb(142 180 233 / 23%);
+    position: absolute;
+    width:600px;
+    height:500px;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 14px 11px 3px 40px;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 800px;
+    box-shadow: 10px 10px 6px -2px;
+    margin-top:7px ;
+    
+  }
+  a:link, a:visited {
+    background-color: #043751;
+    color: white;
+    padding: 7px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 103px;
+    /* position: fixed; */
+   
+ 
+    /* margin: 1px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+
+  }

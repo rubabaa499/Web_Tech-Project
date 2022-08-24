@@ -1,0 +1,109 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.star {
+    color: #edeff7;
+    background-color: #010618e2;
+    font-size: 15px;
+    padding: 2px;
+    align-content: center;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.container {
+    width: 700px;
+    height: 580px;
+    background: white;
+    border-radius: 6px;
+    position: relative;
+    margin-top: 100px;
+    left: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    transition: transform 0.25s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(8, 117, 242, 0.828);
+}
+
+.container>input {
+    display: block;
+    margin: auto auto;
+    width: 50%;
+    margin-bottom: 2em;
+    padding: .5em 0;
+    border: none;
+    border-bottom: 1px solid #b69c9c;
+    padding-bottom: 1.25em;
+    color: #8f8d8d;
+    outline: none;
+    font-size: 1.2em;
+}
+
+.butt {
+    width: 120px;
+    height: 55px;
+    margin-left: 270px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid blue;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    transition: 0.25s;
+    font-size: 17px;
+}
+
+.butt>a {
+    color: white;
+    text-decoration: none;
+}
+
+.butt:hover {
+    background: rgba(63, 85, 234, 0.992);
+    transform: scale(1.1);
+}
+
+.butt2 {
+    width: 120px;
+    height: 55px;
+    margin-left: 270px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid rgb(26, 188, 51);
+    background: rgba(44, 167, 37, 0.822);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    transition: 0.25s;
+    font-size: 17px;
+}
+
+.butt2:hover {
+    background: rgba(26, 188, 51, 0.822);
+    transform: scale(1.1);
+}
+
+.butt2>a {
+    text-decoration: none;
+    color: white;
+}

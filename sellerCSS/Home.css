@@ -1,0 +1,199 @@
+
+
+
+body{
+    /* background-image: url("../Images/cineplex H.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover ;
+    /* width: 000px; */
+    height: 500px;
+    
+}
+
+
+
+.spanclass{
+    color: rgb(226, 95, 55);
+    
+
+}
+h3.sname{
+    color: #e2e0e6f5;
+    border: 3px solid rgb(7, 7, 1);
+    width: 500px;
+     background-color: rgb(7, 7, 1);;
+     text-align: center;
+     justify-content: center;
+     margin: auto;
+     box-shadow: 10px 10px 6px -4px;
+
+}
+h3.wel{
+    color: #e2e0e6f5;
+    border: 3px solid rgb(7, 7, 1);;
+    width: 500px;
+     background-color: rgb(7, 7, 1);;
+     text-align: center;
+     justify-content: center;
+     margin: auto;
+     box-shadow: 10px 10px 6px -4px;
+     font-size: larger;
+
+
+}
+div.header{
+    background-color: rgb(7, 2, 7);
+    width: initial;
+    text-align: center;
+     justify-content: center;
+     margin: auto;
+     height: 93px;
+     color: #e2e0e6f5;
+     font-size: larger;
+     font-family: cursive;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 0;
+    border: 2px solid #8461d4;
+  
+  }
+/* Style the top navigation bar */
+.topnav {
+  width: auto;
+  height: 70px;
+  overflow: hidden;
+  background-color: rgb(71, 5, 68);
+  text-align: center;
+  /* position: relative; */
+  /* text-decoration: none; */
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+  }
+  .topnav p {
+      /* float: right; */
+      display: block;
+      color: blue;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+     
+      input[type=text] {
+        padding:10px; 
+        border:2px solid rgb(65, 41, 41); 
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+div.Cnam{
+
+  background-color: rgb(71, 5, 68);
+  font-size: larger;
+  color: white;
+  font-size: large;
+  font-family: cursive;
+ padding-left: 5px;
+/* position: absolute; */
+height: 40px;
+}
+.parent{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.child{
+  flex-basis: 23.33%;
+  /* padding: 8px; */
+  box-sizing: border-box;
+  width: 300px;
+height: auto;
+text-align: center;
+padding: 10px;
+margin: auto;
+border: 1px solid black;
+}
+.child img{
+  width: 100%;
+  object-fit: cover;
+  }
+
+ div#hall{
+   border: 2px solid black;
+   color: white;
+   background-color: black;
+text-align: center;
+justify-content: center;
+ }
+ #panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #4b032d;
+  border: solid 1px #c3c3c3;
+  font-size: larger;
+  color: white;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+.parent1{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.movie{
+  flex-basis: 23.33%;
+  /* padding: 8px; */
+  box-sizing: border-box;
+  width: 100px;
+height: auto;
+text-align: center;
+padding: 10px;
+margin: auto;
+border: 1px solid black;
+}
+.movie img{
+  width: 100%;
+  object-fit: cover;
+  }
+  .footer {
+  
+    padding: 2px;
+    text-align: center;
+    border: 2px solid black;
+    background: rgb(29, 6, 6);
+    margin-top: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: large;
+  }
+  input[type=submit] {
+    padding:15px 15px; 
+    background:#080e11; 
+    cursor:pointer;
+   color: white;
+    margin: auto;
+    
+}

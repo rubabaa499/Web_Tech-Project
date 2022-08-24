@@ -1,0 +1,240 @@
+/* universal */
+
+*{
+    box-sizing: border-box;
+    margin: 3px;
+    padding: 2 px;
+    /* background-color: #043751; */
+}
+body{
+    background-image: url(../Images/cineplex\ H.jpg);
+}
+
+
+
+/* id selector */
+#reg{
+    padding: 3px;
+    position: relative;
+background-color:#043751;
+color: white;
+text-align: center;
+border-left: 100px solid rgb(40, 171, 231);
+border-right: 100px solid rgb(40, 171, 231);
+
+
+}
+/* element selector */
+p{
+   background-color: rgb(231, 212, 40);
+   width: 260px;
+}
+/* grouping selector */
+h1, h3.center{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
+      }
+
+/* class selector */
+div.parent-form{
+
+    display: flex;
+}
+div.form1{
+    background-color: rgba(226, 230, 235, 0.938);
+    position: relative;
+    width: 600px;
+    height:632px;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 15px 10px 5px 20px;
+    /* text-align: center; */
+    justify-content: center;
+    margin:120px;
+    box-shadow: 10px 10px 6px -2px;
+    margin-top:7px ;
+
+
+}
+div.form2{
+
+    display: inline-block;
+
+    background-color: rgba(226, 230, 235, 0.938);
+    position: absolute;
+    width:500px;
+    height:670px;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 14px 11px 3px 40px;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 800px;
+    box-shadow: 10px 10px 6px -2px;
+    margin-top:7px ;
+}
+
+
+
+a:link, a:visited {
+    background-color: #043751;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    /* position: fixed; */
+   
+ 
+    /* margin: 1px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+
+  }
+  a:hover{
+      background-color: rgb(192, 154, 228);
+  }
+  .button_submit{
+    padding:15px 15px; 
+    background:#043751; 
+    border: 2px solid black;
+    cursor:pointer;
+   color: white;
+    border-radius: 5px; 
+    
+  }
+  .button_reset{
+
+    padding:15px 15px; 
+    background:#043751; 
+    border: 2px solid black;
+    cursor:pointer;
+   color: white;
+    border-radius: 5px; 
+    
+  }
+
+  /* h3.center{
+      
+  } */
+.labelname
+{
+    position: relative;
+}
+.inboxname
+{
+    /* position:absolute; */
+    display: inline;
+    color: rgb(246, 69, 93);
+    /* left: 120px; */
+    /* top:0px; */
+}
+  .errorSname{
+      position:absolute;
+      left: 100px;
+      /* top: 7px; */
+      width: 320px;
+      /* background-color: aliceblue; */
+  }
+  .errorpw{
+      /* position: absolute; */
+      width: 580px;
+  }
+.Error{
+    position:absolute;
+      left: 300px;
+      bottom: 1px;
+
+}
+
+.labelname2
+{
+    position: relative;
+}
+.inboxname2
+{
+    /* position:absolute; */
+    display: inline;
+    color: rgb(246, 69, 93);
+    /* left: 120px; */
+    /* top:0px; */
+}
+.Error2{
+    position:absolute;
+      left: 300px;
+      bottom: 1px;
+
+}
+.labelname3
+{
+    position: relative;
+}
+.inboxname3
+{
+    /* position:absolute; */
+    display: inline;
+    color: rgb(246, 69, 93);
+    /* left: 120px; */
+    /* top:0px; */
+}
+.Error3{
+    position:absolute;
+      left: 300px;
+      bottom: 1px;
+
+}
+.labelname4
+{
+    position: relative;
+}
+.inboxname4
+{
+    /* position:absolute; */
+    display: inline;
+    color: rgb(246, 69, 93);
+    /* left: 120px; */
+    /* top:0px; */
+}
+.Error4{
+    position:absolute;
+      left: 300px;
+      bottom: -6px;
+
+}
+.labelname5
+{
+    position: relative;
+}
+.inboxname5
+{
+    /* position:absolute; */
+    display: inline;
+    color: rgb(246, 69, 93);
+    /* left: 120px; */
+    /* top:0px; */
+}
+.Error5{
+    position:absolute;
+      left: 300px;
+      bottom: -6px;
+
+}
+.labelname6
+{
+    position: relative;
+}
+.inboxname6
+{
+    /* position:absolute; */
+    display: inline;
+    color: rgb(246, 69, 93);
+    /* left: 120px; */
+    /* top:0px; */
+}
+.Error6{
+    position:absolute;
+      left: 300px;
+      bottom: -6px;
+
+}
